@@ -1,0 +1,47 @@
+body{
+  position: relative;
+  width: 100%;
+  /*overflow: hidden;*/
+}
+.container{
+  width: 100%;
+}
+.content{
+  margin-left: 256px;
+}
+.normal {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  font-size: 40px;
+  overflow: hidden;
+}
+.head{
+  font-family: Georgia, sans-serif;
+  background: aqua;
+  font-size: 40px;
+}
+.menu{
+  position: absolute;
+  top: 64px;
+  width: 256px;
+  height: 700px;
+  background: #001529;
+  overflow: hidden;
+}
+.welcome {
+  box-sizing: border-box;
+  height: 328px;
+  background: url(../assets/yay.jpg) no-repeat center 0;
+  background-size: 388px 328px;
+}
+
+.list {
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  list-style: none;
+  line-height: 1.5em;
+}
+
+.list code {
+  background: #f7f7f7;
+}
